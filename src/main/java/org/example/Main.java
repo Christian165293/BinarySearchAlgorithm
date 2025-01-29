@@ -13,8 +13,8 @@ public class Main {
         System.out.println("Please enter the the the number you would like the binary search to find");
         int numberToSearch = scanner.nextInt();
         BinarySearch binarySearch = new BinarySearch();
-        int numberOfItterations = binarySearch.startBinarySearch(sortedArray, numberToSearch);
-        System.out.println("the number searched for was " + numberToSearch + " it was found at index " + (numberToSearch - 1) + " and it took " + numberOfItterations + " iterations to find the number");
+        int numberOfIterations = binarySearch.startBinarySearch(sortedArray, numberToSearch);
+        System.out.println("the number searched for was " + numberToSearch + " it was found at index " + (numberToSearch - 1) + " and it took " + numberOfIterations + " iterations to find the number");
     }
 
 }
