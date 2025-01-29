@@ -18,7 +18,7 @@ public class BinarySearch {
                 low = mid + 1;
             }
         }
-        return 0;//this is saying the number being asked to search for does not exist
+        return -1;//this is saying the number being asked to search for does not exist
     }
 }
 
